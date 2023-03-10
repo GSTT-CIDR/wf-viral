@@ -25,11 +25,11 @@
                     "help_text": "Please select the reference genome of the target organism you wish to map",
                     "enum": [
                         "NC_038311.1",
-                        "NC_001490.1",
+			"NC_001490.1",
 			"Rhinovirus_A",
 			"Rhinovirus_B"
                     ],
-                    "default": "NC_038311.1"
+                    "default": "Rhinovirus_A"
                 },
                 "analyse_unclassified": {
                     "type": "boolean",
