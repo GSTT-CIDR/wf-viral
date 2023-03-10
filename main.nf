@@ -114,7 +114,7 @@ process flyeAssembly {
     script:
     """
     samtools bam2fq ${sample_id}.bam > ${sample_id}_restricted.fastq
-    flye --nano-raw ${sample_id}_restricted.fastq  -g 197k -t ${params.assembly_threads} --meta -o flye
+    flye --nano-raw ${sample_id}_restricted.fastq  -t ${params.assembly_threads} --meta -o flye
 
     # polish assembly with medaka
 
